@@ -1,0 +1,1 @@
+[Renaissance Proposal](https://github.com/herereadthis/bloodwake/blob/master/docs/proposal.md)

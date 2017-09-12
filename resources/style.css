@@ -1,0 +1,86 @@
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow: -moz-scrollbars-vertical;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body {
+    padding: 0;
+    font-size: 100%;
+    position: relative;
+    text-rendering: optimizelegibility;
+    font-size: 1em;
+    line-height: 1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body, table, td,
+ul, ol,
+h1, h2, h3, h4, p, img,
+figure {
+    margin: 0;
+}
+ul, ol {
+    padding-left: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: normal;
+}
+
+p, figcaption, li {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+p, ul {
+    margin-bottom: 2rem;
+}
+
+li {
+    margin-left: 2rem;
+}
+
+img {
+    border-width: 0;
+    width: 62vw;
+}
+
+figure {
+    text-align: center;
+    margin: 0 auto 2rem auto;
+}
+
+figure div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 0.5rem 0 0 0;
+    text-align: center;
+}
+
+@media print {
+    footer {page-break-after: always;}
+.break {
+    page-break-after: always;
+}
+}
