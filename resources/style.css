@@ -50,6 +50,10 @@ p, ul {
     margin-bottom: 2rem;
 }
 
+ul ul {
+    margin-bottom: 0;
+}
+
 li {
     margin-left: 2rem;
 }
@@ -72,15 +76,21 @@ figure div {
 figcaption {
     font-style: italic;
     display: block;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
     margin: 0.5rem 0 0 0;
     text-align: center;
 }
 
-@media print {
-    footer {page-break-after: always;}
-.break {
-    page-break-after: always;
+@media screen {
+    body {
+        padding: 4rem;
+    }
 }
+
+@media print {
+    footer {
+        page-break-after: always;
+    }
+    .break {
+        page-break-after: always;
+    }
 }
