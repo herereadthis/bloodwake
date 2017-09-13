@@ -46,11 +46,11 @@ p, figcaption, li {
     line-height: 2rem;
 }
 
-p, ul {
+p, ul, ol {
     margin-bottom: 2rem;
 }
 
-ul ul {
+ul ul, ol ul {
     margin-bottom: 0;
 }
 
