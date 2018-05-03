@@ -88,7 +88,7 @@ figcaption {
 
 @media print {
     @page {
-        margin: 25mm 25mm;
+        margin: 25mm 30mm;
     }
     footer {
         page-break-after: always;
