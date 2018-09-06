@@ -80,6 +80,10 @@ figcaption {
     text-align: center;
 }
 
+.pad {
+    height: 2rem;
+}
+
 @media screen {
     body {
         padding: 4rem;
