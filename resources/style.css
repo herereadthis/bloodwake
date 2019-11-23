@@ -41,6 +41,12 @@ h2 {
     font-weight: normal;
 }
 
+h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
 p, figcaption, li {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -56,6 +62,10 @@ ul ul, ol ul {
 
 li {
     margin-left: 2rem;
+}
+
+li p {
+    margin-bottom: 0;
 }
 
 img {
