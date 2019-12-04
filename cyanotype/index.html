@@ -1,98 +1,171 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
 <title>Cyanotype</title>
 <link rel="stylesheet" type="text/css" href="../resources/style.css">
 
+<style type="text/css">
+    .testStripHeading {
+        font-weight: bold;
+        margin-top: 2rem;
+    }
+    .testStripLabel {
+    }
+    .testStrip td {
+        text-align: center;
+    }
+    .testStrip img {
+        width: auto;
+    }
 
+</style>
+    
 </head>
 
 <body>
 
 <h1>Cyanotype Notes</h1>
 
-
 <p>The following are a collection of tests and samples towards making cyanotype prints</p>
 
 <div class="pad"></div>
+<h2>What&rsquo;s the Point Here?</h2>
+
+<p>The notes on this page are more concerned with the technical aspects of printing photographs instead of the artistic intent and meaning behind them. The basic premise on which I&rsquo;m going is this: if I can take care of all technical considerations such that I no longer have to worry print quality, then I am free to experiment as much as want artiscally later. In other words, I want to do the heavy lifting of becoming proficient at printing cyanotypes in the beginning so I can make prints easily and quickly later.</p>
+
+<div class="pad">&nbsp;</div>
+
 <h2>Paper Selection</h2>
 
 <p>The first problem is cyanotype chemicals are highly sensitive to alkali substances in the paper, which is typically calcium carbonate. Calcium carbonate acts as a &ldquo;buffer&rdquo; for archival paper. Therefore, the best paper will be unbuffered paper. However, unbuffered paper is very rare and often expensive. A possible solution is to take buffered paper and treat it with acid. (See Appendix Part A)</p>
 
 <h3>Papers Tested</h3>
 
+<p>See Appendix Part B for more notes about papers</p>
+
 <ul>
-    <li>
-        <p>Rives BFK Printmaking Paper 250gsm (White)</p>
-        <ul>
-            <li>100% cotton rag, very durable for washing</li>
-            <li>Buffered</li>
-            <li>Price: 4/5</li>
-            <li>The front side is the rougher side</li>
-        </ul>
-    </li>
-    <li>
-        <p>Legion Stonehenge Printmaking Paper 90lb (White)</p>
-        <ul>
-            <li>100% cotton rag, very durable for washing</li>
-            <li>Buffered</li>
-            <li>Price: 3.5/5</li>
-            <li>The front side is the rougher side</li>
-        </ul>
-    </li>
-    <li>
-        <p>Strathmore 300 Series Bristol Paper  270gsm (Smooth)</p>
-        <ul>
-            <li>Tears easily during washing</li>
-            <li>Buffered</li>
-            <li>Price: 2.5/5</li>
-            <li>White paper</li>
-        </ul>
-    </li>
-    <li>
-        <p>Canson XL Bristol Paper 260gsm (Smooth)</p>
-        <ul>
-            <li>Withstands washing if treated gently</li>
-            <li>Buffered</li>
-            <li>Price: 2.5/5</li>
-            <li>White paper</li>
-            <li>Front and back sides are hard to differentiate before acid treating, but obvious afterwards. Mark back side before washing.</li>
-            <li>Comes in 2 variants: unrecycled and recycled</li>
-        </ul>
-    </li>
-    <li>
-        <p>Canson Montval Watercolor Paper 300gsm (Smooth)</p>
-        <ul>
-            <li>Very durable for washing</li>
-            <li>Buffered</li>
-            <li>Price: 3/5</li>
-            <li>Natural white</li>
-            <li>Highly textured</li>
-        </ul>
-    </li>
+    <li>Rives BFK Printmaking Paper 250gsm (White)</li>
+    <li>Legion Stonehenge Printmaking Paper 90lb (White)</li>
+    <li>Strathmore 300 Series Bristol Paper 270gsm (Smooth)</li>
+    <li>Canson XL Bristol Paper 260gsm (Smooth)</li>
+    <li>Canson Montval Watercolor Paper 300gsm (Smooth)</li>
 </ul>
 
+<h3>Test Strips</h3>
 
+<p>The first step in knowing how to print cyanotypes is determining the ideal exposure time, which is the the minimum time needed such that any additional exposure will not make the print any darker. Getting the ideal exposure time correct follows the same principle as creating test strips with regular silver darkroom printing. Once we find this time, it will be easier to manipulate the highlights and midtones of an image. (See Appendix C for how to make test strips.)</p>
 
-<!--
-<figure>
-    <img src="./frame_01.jpg" />
-    <figcaption>&ldquo;asdf&rdquo;</figcaption>
-</figure>
--->
+<p>The following table will shows comparisons between paper that is:</p>
 
+<ul>
+    <li>Sensitized but otherwise untreated, as-is</li>
+    <li>Washed in acid, dried, sensitized, and then printed</li>
+    <li>Washed in acid, dried, sensitized, delayed 48 hours, and then printed</li>
+</ul>
 
-<div class="break"></div>
+<table border="1" class="testStrip">
+    <tbody>
+        <tr>
+            <td colspan="6"><p class="testStripHeading">Rives BFK Printmaking (90 seconds)</p></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <img src="./img/ts_rives_untreated.jpg" style="height: 700px" />
+            </td>
+            <td colspan="3">
+                <img src="./img/ts_rives_acid.jpg" style="height: 700px" />
+            </td>
+        <tr>
+            <td colspan="3"><p class="testStripLabel">Untreated</p></td>
+            <td colspan="3"><p class="testStripLabel">Acid pre-wash</p></td>
+        </tr>
+        <tr>
+            <td colspan="6"><p>Legion Stonehenge Printmaking (90 seconds)</p></td>
+        </tr>
+        <tr>
+            <td colspan="3"><p>Missing</p></td>
+            <td colspan="3">
+                <img src="./img/ts_stonehenge_acid.jpg" style="height: 700px" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><p class="testStripLabel">Untreated</p></td>
+            <td colspan="3"><p class="testStripLabel">Acid pre-wash</p></td>
+        </tr>
+        <tr>
+            <td colspan="6"><p class="testStripHeading">Strathmore 300 Series Bristol (84 seconds)</p></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <img src="./img/ts_strathmore_300_untreated.jpg" style="height: 700px" />
+            </td>
+            <td colspan="3">
+                <img src="./img/ts_strathmore_300_acid.jpg" style="height: 700px" />
+            </td>
+        <tr>
+            <td colspan="3"><p class="testStripLabel">Untreated</p></td>
+            <td colspan="3"><p class="testStripLabel">Acid pre-wash</p></td>
+        </tr>
+        <tr>
+            <td colspan="6"><p class="testStripHeading">Canson XL Bristol (120 seconds)</p></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <!--<img src="./img/ts_canson_bristol_untreated.jpg" style="height: 700px" />-->
+            </td>
+            <td colspan="2">
+                <img src="./img/ts_canson_bristol_acid.jpg" style="height: 700px" />
+            </td>
+            <td colspan="2">
+                <img src="./img/ts_canson_bristol_acid_delayed.jpg" style="height: 700px" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><p class="testStripLabel">Untreated</p></td>
+            <td colspan="2"><p class="testStripLabel">Acid pre-wash</p></td>
+            <td colspan="2"><p class="testStripLabel">Delayed printing</p></td>
+        </tr>
+        <tr>
+            <td colspan="6"><p class="testStripHeading">Canson Montval Watercolor (120 seconds)</p></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <img src="./img/ts_canson_montval_untreated.jpg" style="height: 700px" />
+            </td>
+            <td colspan="2">
+                <img src="./img/ts_canson_montval_acid.jpg" style="height: 700px" />
+            </td>
+            <td colspan="2">
+                <img src="./img/ts_canson_montval_acid_delayed.jpg" style="height: 700px" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><p class="testStripLabel">Untreated</p></td>
+            <td colspan="2"><p class="testStripLabel">Acid pre-wash</p></td>
+            <td colspan="2"><p class="testStripLabel">Delayed printing</p></td>
+        </tr>
+    </tbody>
+</table>
 
+<p>Conclusions</p>
 
-<div class="pad"></div>
+<ul>
+    <li>Strathmore 300 Bristol paper is terrible for cyanotype.</li>
+    <li>Rives BFK and Legion Stonehenge are splotchy up close</li>
+    <li>Canson XL Bristol and Canson Montval have the largest range from light to dark</li>
+    <li>The acid pre-wash paper greatly increases tonal range</li>
+    <li>The price of the paper does not determine how ideal it is for cyanotype</li>
+</ul>
+
+<div class="break">&nbsp;</div>
+
+<div class="pad">&nbsp;</div>
+
 <h2>Appendix</h2>
 
 <h3>A. How to treat buffered papers</h3>
 
-<ul>
+<ol>
     <li>Buy muriatic (hydrochloric) acid, which can be found at Ace Hardware, but not at Home Depot. Muriatic acid is for treating swimming pools. It usually comes as a 31% to 37% concentration.</li>
     <li>Hydrochloric acid is very dangerous! It has no odor. You will not be aware until your eyes and nose begin stinging. Wear rubber gloves and safety glasses.</li>
     <li>In a tray, make a 5% v/v solution. In other words for every 950mL of water, add 50mL acid.</li>
@@ -100,7 +173,99 @@
     <li>Soak the paper in acid for 5-10 minutes. You will know it is working because the paper will start bubbling.</li>
     <li>Wash the paper in water for 10 minutes, and let it dry.</li>
     <li>Before pouring the acid away, dilute it heavily with water. Hydrochloric acid can corrode plumbing.</li>
+</ol>
+
+<h3>B. Papers</h3>
+
+<ul>
+    <li>Durability rating: 1: printer paper, 5: Ilford fiber paper</li>
+    <li>Price rating: 1: printer paper, 5: Hahnem&uuml;hle rag papers</li>
 </ul>
+
+<table>
+    <thead>
+        <tr>
+            <th style="width: 20%;"><p>Paper Name</p></th>
+            <th style="width: 10%;"><p>Variant</p></th>
+            <th style="width: 10%;"><p>Weight (gsm)</p></th>
+            <th style="width: 10%;"><p>Buffer</p></th>
+            <th style="width: 10%;"><p>Color</p></th>
+            <th style="width: 10%;"><p>Durability</p></th>
+            <th style="width: 10%;"><p>Price</p></th>
+            <th style="width: 20%;"><p>Notes</p></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p>Rives BFK Printmaking</p></td>
+            <td><p>White</p></td>
+            <td><p>250</p></td>
+            <td><p>Yes</p></td>
+            <td><p>White</p></td>
+            <td><p>4.5</p></td>
+            <td><p>4.0</p></td>
+            <td><p>The front side is the rougher side</p></td>
+        </tr>
+        <tr>
+            <td><p>Legion Stonehenge Printmaking</p></td>
+            <td><p>White</p></td>
+            <td><p>165</p></td>
+            <td><p>Yes</p></td>
+            <td><p>White</p></td>
+            <td><p>4.0</p></td>
+            <td><p>3.5</p></td>
+            <td><p>The front side is the rougher side</p></td>
+        </tr>
+        <tr>
+            <td><p>Strathmore 300 Series Bristol</p></td>
+            <td><p>Smooth</p></td>
+            <td><p>270</p></td>
+            <td><p>Yes</p></td>
+            <td><p>White</p></td>
+            <td><p>2.5</p></td>
+            <td><p>2.5</p></td>
+            <td><p>Comes in 3 grades: 300, 400, 500</p></td>
+        </tr>
+        <tr>
+            <td><p>Canson XL Bristol</p></td>
+            <td><p>Smooth</p></td>
+            <td><p>260</p></td>
+            <td><p>Yes</p></td>
+            <td><p>Very white</p></td>
+            <td><p>3.0</p></td>
+            <td><p>2.5</p></td>
+            <td><p>Comes in 2 versions: (un)recycled</p></td>
+        </tr>
+        <tr>
+            <td><p>Canson Montval Watercolor</p></td>
+            <td><p>Block</p></td>
+            <td><p>300</p></td>
+            <td><p>Yes</p></td>
+            <td><p>Natural white</p></td>
+            <td><p>3.5</p></td>
+            <td><p>3.0</p></td>
+            <td><p>Very textured</p></td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>C. How to find maximum exposure time</h3>
+<p>To achieve consistency in printing, we have to find out how long to stick coated papers under the UV lights. We can think of this problem as, &ldquo;What is the minimum time do I have to expose this paper until I can achieve the maximum possible darkness?&rdquo; If you do not expose the paper long enough, you will never get the full range of tones from light to dark. However, if you expose the paper for too long, then all the midtones of the paper will appear too dark.</p>
+<ol>
+    <li>Cut a strip of paper after it&rsquo;s been fully coated and dried</li>
+    <li>Get a blank negative. If you are using digital negatives, just grab a blank sheet. If you are using real negatives, develop an unexposed frame</li>
+    <li>With a ruler, mark a line of dots every centimeter down the length of the paper strip</li>
+    <li>Put the paper in the UV machine's frame. Put the negative face down on top of it so that it covers the whole paper.</li>
+    <li>Pick an interval time. I chose 12 seconds</li>
+    <li>Get a matboard and move it down the first dot you drew</li>
+    <li>Push the paper into the machine and turn on the vacuum.</li>
+    <li>With a timer, turn on the light for 12 seconds, then turn it off.</li>
+    <li>Turn off the vacuum, pull the frame out and move the matboard to the next mark. Do not adjust the paper or the negative</li>
+    <li>Keep repeating until you reach the end of the strip</li>
+    <li>Wash the paper, then spray it with hydrogen peroxide, and wash it some more.</li>
+    <li>Count the number of rows you can see that look different.</li>
+    <li>Your minimum exposure time is at the point when you can't differentiate one dark row from another.</li>
+</ol>
 
 
 </body>
