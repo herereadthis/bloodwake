@@ -30,9 +30,10 @@ ul, ol {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     line-height: 6rem;
     font-weight: normal;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -112,6 +113,7 @@ th {
     @page {
         margin: 25mm 30mm;
     }
+
     footer {
         page-break-after: always;
     }
