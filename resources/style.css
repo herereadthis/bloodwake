@@ -121,3 +121,7 @@ th {
         page-break-after: always;
     }
 }
+
+.figure_image {
+    width: 100%;
+}
