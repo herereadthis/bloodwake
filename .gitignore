@@ -1,2 +1,7 @@
 .DS_Store
 .idea
+
+# latex
+*.aux
+*.log
+*.gz
